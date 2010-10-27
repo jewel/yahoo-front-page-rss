@@ -1,0 +1,10 @@
+Yahoo Front Page RSS Generator
+==============================
+
+You will need to install nokogiri from rubygems in order to use this.
+
+It should then work as a "command" feed source in liferea.
+
+Patches welcome.  Particular missing features would be an easy HTTP hosting
+method such as a CGI script.  I'd also accept a patch for it to use REXML
+instead of nokogiri to reduce dependencies.
